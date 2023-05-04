@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  width: 360px;
+  margin: 0 auto;
+  padding: 60px 0;
+  h1{
+    padding: 28px 0;
+    font-size: 26px;
+    text-align: center;
+  }
+  .phone {
+    display: flex;
+    input {
+      margin: 0;
+      width: 209px;
+    }
+  }
+}

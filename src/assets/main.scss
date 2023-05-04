@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+}
+
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+// pages
+@import "../assets/styles/pages/home.scss";
+@import "../assets/styles/pages/post.scss";
+@import "../assets/styles/pages/login.scss";
+@import "../assets/styles/pages/register.scss";
+
+// components
+@import "../assets/styles/components/header.scss";
+@import "../assets/styles/components/button.scss";
+@import "../assets/styles/components/input.scss";

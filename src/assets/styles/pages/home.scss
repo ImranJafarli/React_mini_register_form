@@ -1,0 +1,27 @@
+.home{
+    background-color: #eab121;
+    height: 100vh;
+    h1{
+        text-align: center;
+        font-size: 36;
+        padding-top: 56px;
+    }
+    div{
+        ul{
+            li{
+                color: #fff;
+                font-size: 20px;
+                a{
+                    font-size: 20px;
+                    color: purple;
+                    transition: 0.5s;
+                    &:hover{
+                        transform: scale(1.2);
+                        transition: 0.5s;
+                        color: blue;
+                    }
+                }
+            }
+        }
+    }
+}

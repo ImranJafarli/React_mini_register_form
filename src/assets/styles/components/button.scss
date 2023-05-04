@@ -1,0 +1,37 @@
+@mixin btn-size {
+  color: white;
+  border-radius: 12px;
+  border: none;
+  width: 120px;
+  height: 32px;
+  cursor: pointer;
+}
+
+@mixin btn-hover {
+  transition: 0.5s;
+  transform: scale(1.2);
+}
+
+.register {
+  background-color: blue;
+  @include btn-size;
+  &:hover {
+    @include btn-hover;
+    background-color: crimson;
+  }
+}
+
+.login {
+  background-color: green;
+  @include btn-size;
+  &:hover {
+    @include btn-hover;
+    background-color: darkslateblue;
+  }
+}
+
+.disabled {
+  @include btn-size;
+  background-color: gray;
+  color: #fff;
+}
